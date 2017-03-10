@@ -66,8 +66,7 @@
         };
         
         function removeTransition(e){
-            if(e.propertyName !== 'color') return; //skip if not color
-            console.log(this);
+            if(e.propertyName !== 'border-bottom-width') return; //skip if not color
             this.classList.remove('playing');   
         } 
         
